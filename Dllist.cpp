@@ -15,7 +15,8 @@ bool Dllist::empty()
 {
 	if (listsize == 0)
 		return 1;
-	else return 0;
+	else 
+		return 0;
 }
 
 void Dllist::insert(Node *item, Node * pred)
